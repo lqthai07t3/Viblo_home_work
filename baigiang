@@ -1,0 +1,53 @@
+- Transition:
+   + width 2s ease 1s;
+   + ease : nhanh dan, cham dan
+   + ease-in: nhanh dan
+   + Cac thuoc tinh nao co the transtion duoc?
+      + Chi co tac dung voi cac thuoc tinh dang so (width, height, left, top, bottom, right, margin, padding, font-size, color, background-color)
+- shadow:
+	+ box-shadow:
+	+ [trai phai] [tren duoi] [do toa] [mau]
+	+ text-shadow:
+	+ Khong lam anh huong den khoang khong gian chiem cho cua element
+
+
+Cac thuoc tinh quan trong nhat trong css:
+    + width, height, box-sizing, padding, margin, border
+
+ + Photoshop : Psd to html
+   + designer => psd => html/css
+
++ cac thanh phan tren pts: y nghia
+   + Thanh cong cu:
+       + Move tool
+       + selection tool: do dac
+       + ruler:
+       + Line: giong : ctrl + ;
+       + Text tool: chu
+       + 2 bang mau:
+       + hand tool
+       + zoom tool: phong to
++ lay ma mau nhu the nao?
++ lay anh ntn
+  + Layer: la nhung tam kinh dat len nhau
+  + group:
+     + nhom layer
+  + smart object: doi tuong dac biet, trong doi tuong nay co nhieu cac layer khac
++ shadow ntn
+
++ font chu, mau chu, text shadow
++ meo
+
++ illustrator: 
+
+ + cat giao dien
+    + lay het cac hinh anh trong file thiet ke
+    + html
+    + css
+
+
+
+
+
+
+
