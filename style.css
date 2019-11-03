@@ -10,6 +10,10 @@
 	clear: both;
 } 
 @font-face {
+  font-family: "WorkSans Regular";
+  src: url(fonts/WorkSans-Regular.otf);
+}
+@font-face {
   font-family: "Myriad Pro";
   src: url(fonts/myriadpro-light.otf);
 }
@@ -42,7 +46,6 @@ a {
 	line-height: 60px;
 	font-family: "Myriad Pro", sans-serif;
 }
-
 #hero {
 	height: 1000px;
 	padding-top: 48px;
@@ -277,33 +280,101 @@ header ul li a:last-child {
 }
 
 /** Everything **/
-#everything {
+#everything{
+	background-color: #fafafc;
+	height: 476px;
 	display: flex;
 	justify-content: space-between;
-	background-color: white;
 }
-#everything img {
-	margin-top: 75px;
+#everything img{
+	margin-top: 72px;
+	margin-left: 19px;
+}
+#everything div{
+	margin-left: 85px;
+	margin-top: 80px;
+}
+#everything div h2{
+	font-size: 30px;
+	line-height: 60px;
+	font-family: "WorkSans Bold", sans-serif;
+	color: #233148;
 }
 #everything div ul li a{
 	background-image: url(images/check.png);
+	display: block;
 	background-repeat: no-repeat;
-	display: inline-block;
+	background-position: 0px; 
 	padding-left: 30px;
-	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 27px;
+	font-family: "WorkSans Regular", sans-serif;
+	color: #233148;
+}
+#everything div p{
+	margin-top: 45px;
+	font-size: 14px;
+	line-height: 27px;
+	color: #6a6d89;
 }
 
 /** Available **/
-#availble{
-	height: 1000px;
+#available{
+	height: 762px;
 	background-image: url(images/bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
-
+	background-position: center bottom;
+	position: relative;
 }
-#availble div {
+
+#available .container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	
 }
-
+#available .container > img{
+	display: block;
+	margin-left: 180px;
+	margin-top: 110px;
+}
+#available .container > div{
+	width: 615px;
+	text-align: left;
+}
+#available .container > div > h2{
+	margin-top: 260px;
+    margin-bottom: 14px;
+    margin-left: 160px;
+}
+#available .container > div > p{
+	margin-left: 160px;
+	font-size: 14px;
+	line-height: 27px;
+	font-family: "WorkSans Regular", sans-serif;
+	color: white;
+}
+#available .container > div >ul{
+	margin-left: 160px;
+}
+#available .container > div >ul>li{
+	display: inline-block;
+	margin-top: 23px;
+	margin-right: 20px;
+}
+#available .container a{
+	position: absolute;
+    display: block;
+    font-size: 20px;
+    line-height: 70px;
+    color: #ffffff;
+    height: 70px;
+    font-family: "WorkSans Bold", sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #f6387d,#fe7570 );
+    padding: 0px 80px;
+    box-shadow: 0px 11px 29px rgba(255,7,94,0.2);
+    bottom: -35px;
+    left: calc(50% - 181px);
+}
