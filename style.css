@@ -282,25 +282,29 @@ header ul li a:last-child {
 /** Everything **/
 #everything{
 	background-color: #fafafc;
-	height: 476px;
+	height: 476px;	
+	
+}
+#everything .container{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 75px;
 }
-#everything img{
+#everything .container img{
 	margin-top: 72px;
 	margin-left: 19px;
 }
-#everything div{
+#everything .container div{
 	margin-left: 85px;
 	margin-top: 80px;
 }
-#everything div h2{
+#everything .container div h2{
 	font-size: 30px;
 	line-height: 60px;
 	font-family: "WorkSans Bold", sans-serif;
 	color: #233148;
 }
-#everything div ul li a{
+#everything .container div ul li a{
 	background-image: url(images/check.png);
 	display: block;
 	background-repeat: no-repeat;
@@ -313,7 +317,7 @@ header ul li a:last-child {
 	font-family: "WorkSans Regular", sans-serif;
 	color: #233148;
 }
-#everything div p{
+#everything .container div p{
 	margin-top: 45px;
 	font-size: 14px;
 	line-height: 27px;
@@ -374,7 +378,95 @@ header ul li a:last-child {
     text-transform: uppercase;
     background-image: linear-gradient(to bottom, #f6387d,#fe7570 );
     padding: 0px 80px;
-    box-shadow: 0px 11px 29px rgba(255,7,94,0.2);
+    box-shadow: 0px 11px 29px rgba(255,7,95,0.2);
     bottom: -35px;
     left: calc(50% - 181px);
+}
+
+/** Links **/
+#links {
+	height: 300px;
+	margin-top: 145px;
+	display: flex;
+	justify-content: space-around;
+}
+#links > div {	
+	position: relative;
+}
+#links > div > ul{
+	position: absolute;
+	top: 12%;
+	left: 0px;
+}
+#links > div > ul > li{
+	margin-top: 10px;
+	width: 150px;	
+}
+#links > div > ul > li >a{
+	color: #233148;
+	font-family: "WorkSans Regular", sans-serif;
+}
+#links > div > h3{
+	font-size: 15px;
+	line-height: 27px;
+	font-family: "WorkSans Bold", sans-serif;
+	color: #233148;
+}
+/** get-in-touch **/
+#get-in-touch{
+	height: 356px;
+	text-align: center;
+}
+#get-in-touch > h2{
+	font-size: 30px;
+	line-height: 60px;
+	color: #233148;	
+}
+#get-in-touch > p{	
+	font-size: 14px;
+	line-height: 27px;
+	font-family: "WorkSans Regular", sans-serif;
+}
+#get-in-touch > form{
+	margin-top: 70px;	
+}
+#get-in-touch > form > input{
+	background-color:  #f6f7fb;
+	display: inline-block;
+	height: 50px;
+	width: 570px;
+	border: none;
+	margin-right: 35px;
+}
+#get-in-touch > form > button{
+	background-color: #33d2fd;
+    font-size: 15px;
+    line-height: 50px;
+    height: 50px;
+    color: #233148;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    font-family: "work sans semibold", sans-serif;
+    padding: 0px 40px;
+}
+/** Footer **/
+footer{
+	height: 100px;
+	background-color: #233148;
+
+}
+footer .container{
+	display: flex;
+	justify-content: space-between;
+}
+footer .container >p{
+	font-size: 14px;
+	line-height: 100px;
+	color: white;
+	font-family: "WorkSans Regular",sans-serif;
+}
+footer .container > ul > li{
+	display: inline-block;
+	padding: 30px;
 }
