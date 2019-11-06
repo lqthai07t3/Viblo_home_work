@@ -437,6 +437,8 @@ header ul li a:last-child {
 	width: 570px;
 	border: none;
 	margin-right: 35px;
+	padding: 25px;
+	font-size: 20px;
 }
 #get-in-touch > form > button{
 	background-color: #33d2fd;
@@ -451,7 +453,7 @@ header ul li a:last-child {
     padding: 0px 40px;
 }
 /** Footer **/
-footer{
+footer{	
 	height: 100px;
 	background-color: #233148;
 
@@ -465,6 +467,9 @@ footer .container >p{
 	line-height: 100px;
 	color: white;
 	font-family: "WorkSans Regular",sans-serif;
+}
+footer img{
+	transform: translate(0%,50%);
 }
 footer .container > ul > li{
 	display: inline-block;
