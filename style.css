@@ -475,3 +475,28 @@ footer .container > ul > li{
 	display: inline-block;
 	padding: 30px;
 }
+
+/** Responsive **/
+
+	/** Tren 1150px **/
+@media screen and (max-width: 1200px){
+	
+	.container{
+		width: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
+	/** Tu 960px den 1150px **/
+@media screen and (max-width: 960px){
+
+}
+	/** Tu 768px den 960px **/
+@media screen and (max-width: 768px){
+
+}
+	/** Tu 500px den 768px **/
+@media screen and (max-width: 500px){
+
+}
