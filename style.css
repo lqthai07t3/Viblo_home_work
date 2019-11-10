@@ -388,10 +388,11 @@ header ul li a:last-child {
 	height: 300px;
 	margin-top: 145px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 #links > div {	
 	position: relative;
+	margin: 0px 60px;
 }
 #links > div > ul{
 	position: absolute;
@@ -479,20 +480,145 @@ footer .container > ul > li{
 /** Responsive **/
 
 	/** Tren 1150px **/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1150px){
 	
 	.container{
 		width: auto;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	#features{
+		height: auto;
+		padding-bottom: 30px;
+	}
+	#feature-list{
+		margin-top: 54px;
+	}
+	#feature-list div{
+		position: static;
+		width: 100%;
+    	height: auto;
+    	padding: 20px 30px 20px 30px;
+	}
+
+	#feature-list div img{
+		float: left;
+	}
+	#feature-list div h3{
+		margin-left: 70px;
+		margin-top: 0px;
+		text-align: left;
+	}
+	#feature-list div p{
+		text-align: left;
+		margin-left: 70px;
+	}
+	#features #phone-image > img {
+	    margin-top: 80px;
+	    padding-bottom: 50px;
+	    padding-right: 20px;	    
+	}
+	#phone-image{
+		width: 50%;
+	}
+}
+	/** Tu 1090px den 1150px **/
+@media screen and (max-width: 1090px){
+	#stable > div{
+		padding-right: 30px;
+	}
 
 }
-	/** Tu 960px den 1150px **/
+@media screen and (max-width: 1020px){
+	#everything .container img {
+	    width: 50%;
+	}
+}
+	/** Tu 1014px den 1090px **/
+@media screen and (max-width: 1014px){
+	#available .container > div > h2 {
+	    margin-left: 95px;
+	}
+	#available .container > div > p {
+	    margin-left: 95px;
+	}
+	#available .container > div > ul {
+	    margin-left: 95px;
+	}
+}
+	/** Tu 960px den 1014px **/
 @media screen and (max-width: 960px){
+	#phone-image{
+		display: none;
+	}
+	#feature-list {
+	    width: 100%;
+	}
+	#feature-list div {
+	    width: 80%;
+	    height: auto;
+	    margin: 15px auto;
+	}
+	#stable {
+	    display: block;
+	    padding-top: 10px;
+	    height: auto;	    
+	}
+	#stable > div {
+	    width: auto;
+	}
+	#stable > div > h2 {
+	    text-align: center;
+	}
+	#stable > div > div {
+	    text-align: center;
+	}
+	#stable > div > p{
+		text-align: center;
+	}
+	#stable > ul {
+	    width: 80%;
+	    margin: auto;
+	}
 
 }
-	/** Tu 768px den 960px **/
+
+	/** Tu 949px den 960px **/
+@media screen and (max-width: 949px){
+	#available .container > img {
+	    margin-left: 50px;
+	}
+}
+
+	/** Tu 854px den 949px **/
+@media screen and (max-width: 854px){
+	#everything {
+	    height: auto;
+	}
+	#everything .container {
+	    display: block;
+	}
+	#everything .container img {
+	    width: 100%;
+	}
+	#everything .container div {
+	    margin-left: 0px;
+	    margin-top: 10px;
+	    text-align: center;
+	}
+	#everything .container > div a {
+	    display: inline-block;
+	    width: 100px;
+	    margin: auto;
+	}
+	#links > div {
+	    margin: 0px 25px;
+	}
+
+
+}
+
+	/** Tu 768px den 854px **/
 @media screen and (max-width: 768px){
 
 }
