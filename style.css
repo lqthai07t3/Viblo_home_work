@@ -343,8 +343,7 @@ header ul li a:last-child {
 	margin-left: 180px;
 	margin-top: 110px;
 }
-#available .container > div{
-	width: 615px;
+#available .container > div{	
 	text-align: left;
 }
 #available .container > div > h2{
@@ -435,7 +434,7 @@ header ul li a:last-child {
 	background-color:  #f6f7fb;
 	display: inline-block;
 	height: 50px;
-	width: 570px;
+	width: 65%;
 	border: none;
 	margin-right: 35px;
 	padding: 25px;
@@ -578,15 +577,21 @@ footer .container > ul > li{
 	}
 	#stable > ul {
 	    width: 80%;
-	    margin: auto;
+	    margin: 20px auto;
 	}
-
+	#available .container > img {
+	    margin-left: 10px;
+	}    
 }
 
 	/** Tu 949px den 960px **/
 @media screen and (max-width: 949px){
 	#available .container > img {
 	    margin-left: 50px;
+	}
+	#get-in-touch input {
+	    width: 65%;
+	    margin-right: 25px;
 	}
 }
 
@@ -617,7 +622,13 @@ footer .container > ul > li{
 
 
 }
-
+	/** Tu 768px den 819px **/
+@media screen and (max-width: 819px){
+	#available .container > div >ul>li {
+	    display: block;
+	    text-align: center;
+	}	
+}
 	/** Tu 768px den 854px **/
 @media screen and (max-width: 768px){
 
