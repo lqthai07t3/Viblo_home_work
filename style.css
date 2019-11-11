@@ -624,14 +624,40 @@ footer .container > ul > li{
 }
 	/** Tu 768px den 819px **/
 @media screen and (max-width: 819px){
-	#available .container > div >ul>li {
-	    display: block;
-	    text-align: center;
-	}	
+		
+	#available .container > div > h2 {
+	    margin-left: 30px;
+	}
+	#available .container > div > p {
+	    margin-left: 30px;
+	}
+	#available .container > div > ul {
+	    margin-left: 30px;
+	}
+
 }
 	/** Tu 768px den 854px **/
 @media screen and (max-width: 768px){
+	#available .container > img {
+	    margin-left: 0px;
+	    width: 30%;
+	    margin-top: 55px;
+	}
+	#available .container > div > h2 {
+	    margin-top: 135px;
+	}
+	#available .container > div > ul > li > a > img{
+		width: 90%;
+	}
+}
 
+@media screen and (max-width: 670px){
+	#links{
+		display: none;
+	}
+	#get-in-touch {
+	    margin-top: 60px;
+	}
 }
 	/** Tu 500px den 768px **/
 @media screen and (max-width: 500px){
