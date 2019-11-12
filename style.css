@@ -658,6 +658,12 @@ footer .container > ul > li{
 	#get-in-touch {
 	    margin-top: 60px;
 	}
+	#hero h1{
+		width: auto;
+	}
+	#hero h2{
+		width: auto;
+	}
 }
 	/** Tu 500px den 768px **/
 @media screen and (max-width: 500px){
